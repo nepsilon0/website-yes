@@ -1,0 +1,68 @@
+@font-face {
+	font-family: "Pixel Operator";
+	src: url('PixelOperatorMonoHB.ttf') format("truetype");
+	font-weight: normal;
+	font-style: normal; 
+}
+
+body {
+	color: white;
+	background-image: url('backgroundmain.gif');
+	background-image: no-repeat;
+	background-position: center;
+	background-size: cover; 
+	background-attachment: fixed;
+	font-family: "Pixel Operator", "Courier New", monospace;
+	-webkit-font-smoothing: none;
+   -moz-osx-font-smoothing: grayscale;
+   font-smooth: never;
+   text-rendering: optimizeSpeed; 
+	
+	
+}
+
+.title {
+	font-size: 48px;
+	text-align: center;
+}
+
+.landing {
+	display: flex; 
+	justify-content: center;
+	gap: 20px;
+	font-size: 48px
+	text-color: white;
+	
+}
+
+a {
+	text-decoration: none;
+	text-color: white;
+	color: white;
+	font-size: 32px;
+}
+
+a:hover {
+	text-decoration: underline
+}
+
+img {
+	position: right;	
+	margin-bottom: 20px;
+}
+
+.angelsheaven {
+	position: center;
+}
+
+h2 {
+	margin-bottom: 0px;
+	position: center;
+
+}
+
+.infomation {
+	margin-top: 100px;
+	font-size: 25px;
+}
+
